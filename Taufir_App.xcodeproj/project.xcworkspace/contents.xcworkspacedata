@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Taufir_App.xcodeproj">
+      location = "self:/Users/SaugaatAllabadi/Music/AppShit/TaufirApp/Taufir_App.xcodeproj">
    </FileRef>
 </Workspace>

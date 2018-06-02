@@ -1,0 +1,6 @@
+framework module Pods_Taufir_App {
+  umbrella header "Pods-Taufir_App-umbrella.h"
+
+  export *
+  module * { export * }
+}

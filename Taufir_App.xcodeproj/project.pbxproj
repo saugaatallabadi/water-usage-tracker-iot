@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B0903501E4C394B00977E63 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6B09034F1E4C394A00977E63 /* GoogleService-Info.plist */; };
+		6B1D2C4A1E51D16000462852 /* RankingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1D2C491E51D16000462852 /* RankingTableViewController.swift */; };
+		6B1D2C4C1E51D4EE00462852 /* RankingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1D2C4B1E51D4EE00462852 /* RankingTableViewCell.swift */; };
 		6B23C7D91E4B4FC9009E15B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B23C7D81E4B4FC9009E15B5 /* AppDelegate.swift */; };
 		6B23C7DB1E4B4FC9009E15B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B23C7DA1E4B4FC9009E15B5 /* ViewController.swift */; };
 		6B23C7DE1E4B4FC9009E15B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B23C7DC1E4B4FC9009E15B5 /* Main.storyboard */; };
 		6B23C7E11E4B4FC9009E15B5 /* Taufir_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6B23C7DF1E4B4FC9009E15B5 /* Taufir_App.xcdatamodeld */; };
 		6B23C7E31E4B4FC9009E15B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B23C7E21E4B4FC9009E15B5 /* Assets.xcassets */; };
 		6B23C7E61E4B4FC9009E15B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B23C7E41E4B4FC9009E15B5 /* LaunchScreen.storyboard */; };
+		6B23C7EF1E4B5519009E15B5 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B23C7ED1E4B5519009E15B5 /* SignInViewController.swift */; };
+		6B23C7F21E4B552D009E15B5 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B23C7F11E4B552D009E15B5 /* SignUpViewController.swift */; };
+		6B76CF591E536EAC009FA485 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B76CF581E536EAC009FA485 /* SettingsTableViewController.swift */; };
+		6B77AE551E4CB7AB009FBED4 /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B77AE541E4CB7AB009FBED4 /* MainScreenViewController.swift */; };
+		6B77AE571E4D2FEE009FBED4 /* MyDevicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B77AE561E4D2FEE009FBED4 /* MyDevicesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		30BB0F379E96E3C9CAB82225 /* Pods-Taufir_App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Taufir_App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Taufir_App/Pods-Taufir_App.debug.xcconfig"; sourceTree = "<group>"; };
+		6B09034F1E4C394A00977E63 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6B1D2C491E51D16000462852 /* RankingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingTableViewController.swift; sourceTree = "<group>"; };
+		6B1D2C4B1E51D4EE00462852 /* RankingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingTableViewCell.swift; sourceTree = "<group>"; };
 		6B23C7D51E4B4FC9009E15B5 /* Taufir_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taufir_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B23C7D81E4B4FC9009E15B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6B23C7DA1E4B4FC9009E15B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +36,13 @@
 		6B23C7E21E4B4FC9009E15B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B23C7E51E4B4FC9009E15B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B23C7E71E4B4FC9009E15B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B23C7ED1E4B5519009E15B5 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		6B23C7F11E4B552D009E15B5 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		6B76CF581E536EAC009FA485 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		6B77AE541E4CB7AB009FBED4 /* MainScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
+		6B77AE561E4D2FEE009FBED4 /* MyDevicesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyDevicesViewController.swift; sourceTree = "<group>"; };
+		6B77AE601E4EFA3C009FBED4 /* Taufir_App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Taufir_App.entitlements; sourceTree = "<group>"; };
+		DC7997E32F0034CB7B5A66A6 /* Pods-Taufir_App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Taufir_App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Taufir_App/Pods-Taufir_App.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +61,7 @@
 			children = (
 				6B23C7D71E4B4FC9009E15B5 /* Taufir_App */,
 				6B23C7D61E4B4FC9009E15B5 /* Products */,
+				A377BD18C1C889D0E1EFFEC8 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +76,33 @@
 		6B23C7D71E4B4FC9009E15B5 /* Taufir_App */ = {
 			isa = PBXGroup;
 			children = (
+				6B77AE601E4EFA3C009FBED4 /* Taufir_App.entitlements */,
 				6B23C7D81E4B4FC9009E15B5 /* AppDelegate.swift */,
 				6B23C7DA1E4B4FC9009E15B5 /* ViewController.swift */,
 				6B23C7DC1E4B4FC9009E15B5 /* Main.storyboard */,
+				6B77AE561E4D2FEE009FBED4 /* MyDevicesViewController.swift */,
+				6B77AE541E4CB7AB009FBED4 /* MainScreenViewController.swift */,
+				6B23C7ED1E4B5519009E15B5 /* SignInViewController.swift */,
+				6B23C7F11E4B552D009E15B5 /* SignUpViewController.swift */,
 				6B23C7E21E4B4FC9009E15B5 /* Assets.xcassets */,
 				6B23C7E41E4B4FC9009E15B5 /* LaunchScreen.storyboard */,
 				6B23C7E71E4B4FC9009E15B5 /* Info.plist */,
 				6B23C7DF1E4B4FC9009E15B5 /* Taufir_App.xcdatamodeld */,
+				6B09034F1E4C394A00977E63 /* GoogleService-Info.plist */,
+				6B1D2C491E51D16000462852 /* RankingTableViewController.swift */,
+				6B1D2C4B1E51D4EE00462852 /* RankingTableViewCell.swift */,
+				6B76CF581E536EAC009FA485 /* SettingsTableViewController.swift */,
 			);
 			path = Taufir_App;
+			sourceTree = "<group>";
+		};
+		A377BD18C1C889D0E1EFFEC8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30BB0F379E96E3C9CAB82225 /* Pods-Taufir_App.debug.xcconfig */,
+				DC7997E32F0034CB7B5A66A6 /* Pods-Taufir_App.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +112,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6B23C7EA1E4B4FC9009E15B5 /* Build configuration list for PBXNativeTarget "Taufir_App" */;
 			buildPhases = (
+				5C8B74A448D8DBFE98BF22EF /* [CP] Check Pods Manifest.lock */,
 				6B23C7D11E4B4FC9009E15B5 /* Sources */,
 				6B23C7D21E4B4FC9009E15B5 /* Frameworks */,
 				6B23C7D31E4B4FC9009E15B5 /* Resources */,
+				654BF21AD04CB248D6F7E6FF /* [CP] Embed Pods Frameworks */,
+				1E9A7C900F8FF7281783825B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -101,6 +142,11 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 4QEP4S3E6N;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -129,20 +175,76 @@
 			files = (
 				6B23C7E61E4B4FC9009E15B5 /* LaunchScreen.storyboard in Resources */,
 				6B23C7E31E4B4FC9009E15B5 /* Assets.xcassets in Resources */,
+				6B0903501E4C394B00977E63 /* GoogleService-Info.plist in Resources */,
 				6B23C7DE1E4B4FC9009E15B5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E9A7C900F8FF7281783825B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Taufir_App/Pods-Taufir_App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C8B74A448D8DBFE98BF22EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		654BF21AD04CB248D6F7E6FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Taufir_App/Pods-Taufir_App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6B23C7D11E4B4FC9009E15B5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B1D2C4A1E51D16000462852 /* RankingTableViewController.swift in Sources */,
+				6B23C7EF1E4B5519009E15B5 /* SignInViewController.swift in Sources */,
+				6B1D2C4C1E51D4EE00462852 /* RankingTableViewCell.swift in Sources */,
 				6B23C7DB1E4B4FC9009E15B5 /* ViewController.swift in Sources */,
 				6B23C7D91E4B4FC9009E15B5 /* AppDelegate.swift in Sources */,
 				6B23C7E11E4B4FC9009E15B5 /* Taufir_App.xcdatamodeld in Sources */,
+				6B76CF591E536EAC009FA485 /* SettingsTableViewController.swift in Sources */,
+				6B77AE571E4D2FEE009FBED4 /* MyDevicesViewController.swift in Sources */,
+				6B23C7F21E4B552D009E15B5 /* SignUpViewController.swift in Sources */,
+				6B77AE551E4CB7AB009FBED4 /* MainScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +296,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = /Users/SaugaatAllabadi/Documents/FacebookSDK;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -243,6 +346,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = /Users/SaugaatAllabadi/Documents/FacebookSDK;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -261,9 +365,15 @@
 		};
 		6B23C7EB1E4B4FC9009E15B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30BB0F379E96E3C9CAB82225 /* Pods-Taufir_App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Taufir_App/Taufir_App.entitlements;
 				DEVELOPMENT_TEAM = 4QEP4S3E6N;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Taufir_App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.edu.Taufir.Taufir-App";
@@ -274,9 +384,15 @@
 		};
 		6B23C7EC1E4B4FC9009E15B5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC7997E32F0034CB7B5A66A6 /* Pods-Taufir_App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Taufir_App/Taufir_App.entitlements;
 				DEVELOPMENT_TEAM = 4QEP4S3E6N;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Taufir_App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.edu.Taufir.Taufir-App";
@@ -304,6 +420,7 @@
 				6B23C7EC1E4B4FC9009E15B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

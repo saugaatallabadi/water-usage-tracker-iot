@@ -7,9 +7,16 @@
 //
 
 import UIKit
+import Firebase
+import GoogleSignIn
+//import FBSDKLoginKit
 
 class ViewController: UIViewController {
 
+    @IBAction func mainButton(_ sender: Any) {
+        
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
