@@ -1,3 +1,3 @@
-# water-usage-tracker-iot
+# Water Usage Tracker (IoT)
 
-Tracks water usage in a home using IOT Devices
+Tracks water usage in a home using IoT Devices
